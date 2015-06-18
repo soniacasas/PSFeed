@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35518E4F1AE36CAD007DA0A0 /* C1SCDeatilRSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35518E4E1AE36CAD007DA0A0 /* C1SCDeatilRSSViewController.m */; };
+		35518E521AE4468A007DA0A0 /* C1SCMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35518E511AE4468A007DA0A0 /* C1SCMainTableViewCell.m */; };
 		35DB5A2F1AE2E30E004191EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5A2E1AE2E30E004191EB /* main.m */; };
 		35DB5A321AE2E30E004191EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5A311AE2E30E004191EB /* AppDelegate.m */; };
-		35DB5A351AE2E30E004191EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5A341AE2E30E004191EB /* ViewController.m */; };
 		35DB5A381AE2E30E004191EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DB5A361AE2E30E004191EB /* Main.storyboard */; };
 		35DB5A3A1AE2E30E004191EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB5A391AE2E30E004191EB /* Images.xcassets */; };
 		35DB5A3D1AE2E30E004191EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DB5A3B1AE2E30E004191EB /* LaunchScreen.xib */; };
 		35DB5A491AE2E30E004191EB /* ChallengeRSS_SoniaCasasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5A481AE2E30E004191EB /* ChallengeRSS_SoniaCasasTests.m */; };
+		35DB5A541AE2E44D004191EB /* C1SCFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5A531AE2E44D004191EB /* C1SCFeedItem.m */; };
+		35DB5A5B1AE2E4EE004191EB /* C1SCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB5A5A1AE2E4EE004191EB /* C1SCMainViewController.m */; };
+		421D18FD083359337F1ABBCC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9712A3592AEFDEE8DD630F50 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35518E4D1AE36CAD007DA0A0 /* C1SCDeatilRSSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C1SCDeatilRSSViewController.h; path = Controller/C1SCDeatilRSSViewController.h; sourceTree = "<group>"; };
+		35518E4E1AE36CAD007DA0A0 /* C1SCDeatilRSSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C1SCDeatilRSSViewController.m; path = Controller/C1SCDeatilRSSViewController.m; sourceTree = "<group>"; };
+		35518E501AE4468A007DA0A0 /* C1SCMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1SCMainTableViewCell.h; sourceTree = "<group>"; };
+		35518E511AE4468A007DA0A0 /* C1SCMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1SCMainTableViewCell.m; sourceTree = "<group>"; };
 		35DB5A291AE2E30E004191EB /* ChallengeRSS_SoniaCasas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeRSS_SoniaCasas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DB5A2D1AE2E30E004191EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35DB5A2E1AE2E30E004191EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35DB5A301AE2E30E004191EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35DB5A311AE2E30E004191EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35DB5A331AE2E30E004191EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35DB5A341AE2E30E004191EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35DB5A371AE2E30E004191EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35DB5A391AE2E30E004191EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35DB5A3C1AE2E30E004191EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		35DB5A421AE2E30E004191EB /* ChallengeRSS_SoniaCasasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeRSS_SoniaCasasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DB5A471AE2E30E004191EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35DB5A481AE2E30E004191EB /* ChallengeRSS_SoniaCasasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeRSS_SoniaCasasTests.m; sourceTree = "<group>"; };
+		35DB5A521AE2E44D004191EB /* C1SCFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1SCFeedItem.h; sourceTree = "<group>"; };
+		35DB5A531AE2E44D004191EB /* C1SCFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1SCFeedItem.m; sourceTree = "<group>"; };
+		35DB5A591AE2E4EE004191EB /* C1SCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C1SCMainViewController.h; path = Controller/C1SCMainViewController.h; sourceTree = "<group>"; };
+		35DB5A5A1AE2E4EE004191EB /* C1SCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C1SCMainViewController.m; path = Controller/C1SCMainViewController.m; sourceTree = "<group>"; };
+		4CA058345373F8AA5931F36A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9712A3592AEFDEE8DD630F50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BBB140C7F9C2D21494159A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421D18FD083359337F1ABBCC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BE464235AFD1E71F10A5A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9712A3592AEFDEE8DD630F50 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		35DB5A201AE2E30E004191EB = {
 			isa = PBXGroup;
 			children = (
 				35DB5A2B1AE2E30E004191EB /* ChallengeRSS_SoniaCasas */,
 				35DB5A451AE2E30E004191EB /* ChallengeRSS_SoniaCasasTests */,
 				35DB5A2A1AE2E30E004191EB /* Products */,
+				7D997B85E6C818CC89FE0686 /* Pods */,
+				1BE464235AFD1E71F10A5A17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +105,12 @@
 		35DB5A2B1AE2E30E004191EB /* ChallengeRSS_SoniaCasas */ = {
 			isa = PBXGroup;
 			children = (
+				35DB5A561AE2E464004191EB /* Model */,
+				35DB5A581AE2E470004191EB /* Controller */,
+				35DB5A571AE2E46A004191EB /* View */,
 				35DB5A301AE2E30E004191EB /* AppDelegate.h */,
 				35DB5A311AE2E30E004191EB /* AppDelegate.m */,
-				35DB5A331AE2E30E004191EB /* ViewController.h */,
-				35DB5A341AE2E30E004191EB /* ViewController.m */,
-				35DB5A361AE2E30E004191EB /* Main.storyboard */,
 				35DB5A391AE2E30E004191EB /* Images.xcassets */,
-				35DB5A3B1AE2E30E004191EB /* LaunchScreen.xib */,
 				35DB5A2C1AE2E30E004191EB /* Supporting Files */,
 			);
 			path = ChallengeRSS_SoniaCasas;
@@ -119,6 +142,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		35DB5A561AE2E464004191EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35DB5A521AE2E44D004191EB /* C1SCFeedItem.h */,
+				35DB5A531AE2E44D004191EB /* C1SCFeedItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		35DB5A571AE2E46A004191EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35DB5A3B1AE2E30E004191EB /* LaunchScreen.xib */,
+				35DB5A361AE2E30E004191EB /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		35DB5A581AE2E470004191EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35DB5A591AE2E4EE004191EB /* C1SCMainViewController.h */,
+				35DB5A5A1AE2E4EE004191EB /* C1SCMainViewController.m */,
+				35518E501AE4468A007DA0A0 /* C1SCMainTableViewCell.h */,
+				35518E511AE4468A007DA0A0 /* C1SCMainTableViewCell.m */,
+				35518E4D1AE36CAD007DA0A0 /* C1SCDeatilRSSViewController.h */,
+				35518E4E1AE36CAD007DA0A0 /* C1SCDeatilRSSViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7D997B85E6C818CC89FE0686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CA058345373F8AA5931F36A /* Pods.debug.xcconfig */,
+				C2BBB140C7F9C2D21494159A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35DB5A4C1AE2E30E004191EB /* Build configuration list for PBXNativeTarget "ChallengeRSS_SoniaCasas" */;
 			buildPhases = (
+				67811A7E3DCF24F3735303CB /* Check Pods Manifest.lock */,
 				35DB5A251AE2E30E004191EB /* Sources */,
 				35DB5A261AE2E30E004191EB /* Frameworks */,
 				35DB5A271AE2E30E004191EB /* Resources */,
+				0384FCEF3544A8AD59FB0DE6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +279,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0384FCEF3544A8AD59FB0DE6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67811A7E3DCF24F3735303CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35DB5A251AE2E30E004191EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35DB5A351AE2E30E004191EB /* ViewController.m in Sources */,
 				35DB5A321AE2E30E004191EB /* AppDelegate.m in Sources */,
+				35DB5A5B1AE2E4EE004191EB /* C1SCMainViewController.m in Sources */,
 				35DB5A2F1AE2E30E004191EB /* main.m in Sources */,
+				35518E521AE4468A007DA0A0 /* C1SCMainTableViewCell.m in Sources */,
+				35518E4F1AE36CAD007DA0A0 /* C1SCDeatilRSSViewController.m in Sources */,
+				35DB5A541AE2E44D004191EB /* C1SCFeedItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +442,12 @@
 		};
 		35DB5A4D1AE2E30E004191EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA058345373F8AA5931F36A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ChallengeRSS_SoniaCasas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,9 +455,12 @@
 		};
 		35DB5A4E1AE2E30E004191EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2BBB140C7F9C2D21494159A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ChallengeRSS_SoniaCasas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +519,7 @@
 				35DB5A4E1AE2E30E004191EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35DB5A4F1AE2E30E004191EB /* Build configuration list for PBXNativeTarget "ChallengeRSS_SoniaCasasTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +528,7 @@
 				35DB5A511AE2E30E004191EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

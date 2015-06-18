@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  C1SCMainViewController.h
 //  ChallengeRSS_SoniaCasas
 //
 //  Created by Sonia Casas on 18/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface C1SCMainViewController : UITableViewController <NSXMLParserDelegate>
 
 @end
-
